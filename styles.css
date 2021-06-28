@@ -119,7 +119,7 @@ a:hover {
 }
 
 .hero .hero-image {
-    max-width: 500px;
+    max-width: 30rem;
     display: block;
     margin: auto;
 }
@@ -183,4 +183,8 @@ span{
 
 .footer-links {
     padding: 0.5rem;
+}
+
+li img{
+    max-width: 2rem;
 }

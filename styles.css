@@ -119,7 +119,9 @@ a:hover {
 }
 
 .hero .hero-image {
-    max-width: 30rem;
+    /* max-width: 30rem; */
+    width: 75%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -188,3 +190,10 @@ span{
 li img{
     max-width: 2rem;
 }
+
+/* @media screen and (min-width: 400px){
+    .hero-image{
+        width: 100%;
+    }
+    
+} */

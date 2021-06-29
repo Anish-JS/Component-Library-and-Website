@@ -191,9 +191,8 @@ li img{
     max-width: 2rem;
 }
 
-/* @media screen and (min-width: 400px){
+ @media screen and (min-width: 400px){
     .hero-image{
         width: 100%;
     }
-    
-} */
+ } 

@@ -178,3 +178,34 @@ span {
 p {
   text-align: justify;
 }
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.box {
+  padding: 1rem;
+}
+
+.percentages {
+  margin: 1rem;
+  width: 40%;
+}
+
+.percent {
+  /* padding: 0.7rem; */
+  margin: 1.4rem;
+  background-color: #9ca3af;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+}
+
+.bar-fill {
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  width: 100%;
+  padding: 0.5rem;
+}

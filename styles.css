@@ -9,6 +9,7 @@ body {
   font-family: "Georgia", "Times New Roman", Times, serif;
   font-size: 105%;
   /* padding-bottom: 1rem; */
+  scroll-behavior: smooth;
 }
 
 hr {
@@ -136,7 +137,7 @@ a:hover {
 }
 
 .section {
-  padding: 2rem;
+  padding: 1rem;
 }
 .off-white {
   background-color: var(--off-white);
@@ -208,4 +209,13 @@ p {
   border-radius: 12px;
   width: 100%;
   padding: 0.5rem;
+  transition: ease-in 1s all;
+}
+
+li {
+  list-style: none;
+}
+
+small {
+  font-size: large;
 }
